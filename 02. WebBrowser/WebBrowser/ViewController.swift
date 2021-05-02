@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         return true
     }
     
-    func addHttpsProtocolName(url: String) -> String {
+    func makeValidURL(url: String) -> String {
         if isValidUrl(url: url) {
             return url
         } else {
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
             return
         }
         
-        requestUrl = addHttpsProtocolName(url: requestUrl)
+        requestUrl = makeValidURL(url: requestUrl)
         loadWebPage(url: requestUrl)
     }
     
