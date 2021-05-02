@@ -30,12 +30,6 @@ class ViewController: UIViewController {
         self.present(alert, animated: true)
     }
     
-    func updateUrlField() {
-        if let currentUrl = webView.url {
-            urlTextField.text = currentUrl.absoluteString
-        }
-    }
-    
     func isValidUrl(url: String) -> Bool {
         guard let _ = url.range(of: #"^https?://"#, options: .regularExpression) else {
             return false
@@ -80,6 +74,12 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: WKNavigationDelegate {
+    func updateUrlField() {
+        if let currentUrl = webView.url {
+            urlTextField.text = currentUrl.absoluteString
+        }
+    }
+    
     func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
         showInvaildUrlAlert()
         updateUrlField()
