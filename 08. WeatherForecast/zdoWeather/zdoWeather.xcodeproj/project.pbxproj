@@ -9,23 +9,14 @@
 /* Begin PBXBuildFile section */
 		41CFAD23264C1ED6004309E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CFAD22264C1ED6004309E1 /* AppDelegate.swift */; };
 		41CFAD25264C1ED6004309E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CFAD24264C1ED6004309E1 /* SceneDelegate.swift */; };
-		41CFAD27264C1ED6004309E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CFAD26264C1ED6004309E1 /* ViewController.swift */; };
-		41CFAD2A264C1ED6004309E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CFAD28264C1ED6004309E1 /* Main.storyboard */; };
+		41CFAD27264C1ED6004309E1 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CFAD26264C1ED6004309E1 /* WeatherViewController.swift */; };
 		41CFAD2C264C1ED7004309E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41CFAD2B264C1ED7004309E1 /* Assets.xcassets */; };
 		41CFAD2F264C1ED7004309E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CFAD2D264C1ED7004309E1 /* LaunchScreen.storyboard */; };
 		41CFAD3A264C1ED7004309E1 /* ZdoWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CFAD39264C1ED7004309E1 /* ZdoWeatherTests.swift */; };
-		41CFAD45264C1ED7004309E1 /* ZdoWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CFAD44264C1ED7004309E1 /* ZdoWeatherUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		41CFAD36264C1ED7004309E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41CFAD17264C1ED6004309E1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 41CFAD1E264C1ED6004309E1;
-			remoteInfo = ZdoWeather;
-		};
-		41CFAD41264C1ED7004309E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 41CFAD17264C1ED6004309E1 /* Project object */;
 			proxyType = 1;
@@ -38,17 +29,13 @@
 		41CFAD1F264C1ED6004309E1 /* ZdoWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZdoWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41CFAD22264C1ED6004309E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41CFAD24264C1ED6004309E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41CFAD26264C1ED6004309E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41CFAD29264C1ED6004309E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41CFAD26264C1ED6004309E1 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		41CFAD2B264C1ED7004309E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41CFAD2E264C1ED7004309E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		41CFAD30264C1ED7004309E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41CFAD30264C1ED7004309E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
 		41CFAD35264C1ED7004309E1 /* ZdoWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZdoWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41CFAD39264C1ED7004309E1 /* ZdoWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZdoWeatherTests.swift; sourceTree = "<group>"; };
 		41CFAD3B264C1ED7004309E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41CFAD40264C1ED7004309E1 /* ZdoWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZdoWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		41CFAD44264C1ED7004309E1 /* ZdoWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZdoWeatherUITests.swift; sourceTree = "<group>"; };
-		41CFAD46264C1ED7004309E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +53,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41CFAD3D264C1ED7004309E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,8 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				41CFAD21264C1ED6004309E1 /* ZdoWeather */,
+				41CFAD52264C1F59004309E1 /* Supporting Files */,
 				41CFAD38264C1ED7004309E1 /* ZdoWeatherTests */,
-				41CFAD43264C1ED7004309E1 /* ZdoWeatherUITests */,
 				41CFAD20264C1ED6004309E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +71,6 @@
 			children = (
 				41CFAD1F264C1ED6004309E1 /* ZdoWeather.app */,
 				41CFAD35264C1ED7004309E1 /* ZdoWeatherTests.xctest */,
-				41CFAD40264C1ED7004309E1 /* ZdoWeatherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +78,7 @@
 		41CFAD21264C1ED6004309E1 /* ZdoWeather */ = {
 			isa = PBXGroup;
 			children = (
-				41CFAD22264C1ED6004309E1 /* AppDelegate.swift */,
-				41CFAD24264C1ED6004309E1 /* SceneDelegate.swift */,
-				41CFAD26264C1ED6004309E1 /* ViewController.swift */,
-				41CFAD28264C1ED6004309E1 /* Main.storyboard */,
-				41CFAD2B264C1ED7004309E1 /* Assets.xcassets */,
-				41CFAD2D264C1ED7004309E1 /* LaunchScreen.storyboard */,
-				41CFAD30264C1ED7004309E1 /* Info.plist */,
+				41CFAD26264C1ED6004309E1 /* WeatherViewController.swift */,
 			);
 			path = ZdoWeather;
 			sourceTree = "<group>";
@@ -119,13 +92,16 @@
 			path = ZdoWeatherTests;
 			sourceTree = "<group>";
 		};
-		41CFAD43264C1ED7004309E1 /* ZdoWeatherUITests */ = {
+		41CFAD52264C1F59004309E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				41CFAD44264C1ED7004309E1 /* ZdoWeatherUITests.swift */,
-				41CFAD46264C1ED7004309E1 /* Info.plist */,
+				41CFAD30264C1ED7004309E1 /* Info.plist */,
+				41CFAD22264C1ED6004309E1 /* AppDelegate.swift */,
+				41CFAD24264C1ED6004309E1 /* SceneDelegate.swift */,
+				41CFAD2B264C1ED7004309E1 /* Assets.xcassets */,
+				41CFAD2D264C1ED7004309E1 /* LaunchScreen.storyboard */,
 			);
-			path = ZdoWeatherUITests;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,24 +142,6 @@
 			productReference = 41CFAD35264C1ED7004309E1 /* ZdoWeatherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		41CFAD3F264C1ED7004309E1 /* ZdoWeatherUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 41CFAD4F264C1ED7004309E1 /* Build configuration list for PBXNativeTarget "ZdoWeatherUITests" */;
-			buildPhases = (
-				41CFAD3C264C1ED7004309E1 /* Sources */,
-				41CFAD3D264C1ED7004309E1 /* Frameworks */,
-				41CFAD3E264C1ED7004309E1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				41CFAD42264C1ED7004309E1 /* PBXTargetDependency */,
-			);
-			name = ZdoWeatherUITests;
-			productName = ZdoWeatherUITests;
-			productReference = 41CFAD40264C1ED7004309E1 /* ZdoWeatherUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +155,6 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					41CFAD34264C1ED7004309E1 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 41CFAD1E264C1ED6004309E1;
-					};
-					41CFAD3F264C1ED7004309E1 = {
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = 41CFAD1E264C1ED6004309E1;
 					};
@@ -221,7 +175,6 @@
 			targets = (
 				41CFAD1E264C1ED6004309E1 /* ZdoWeather */,
 				41CFAD34264C1ED7004309E1 /* ZdoWeatherTests */,
-				41CFAD3F264C1ED7004309E1 /* ZdoWeatherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +186,10 @@
 			files = (
 				41CFAD2F264C1ED7004309E1 /* LaunchScreen.storyboard in Resources */,
 				41CFAD2C264C1ED7004309E1 /* Assets.xcassets in Resources */,
-				41CFAD2A264C1ED6004309E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		41CFAD33264C1ED7004309E1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		41CFAD3E264C1ED7004309E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41CFAD27264C1ED6004309E1 /* ViewController.swift in Sources */,
+				41CFAD27264C1ED6004309E1 /* WeatherViewController.swift in Sources */,
 				41CFAD23264C1ED6004309E1 /* AppDelegate.swift in Sources */,
 				41CFAD25264C1ED6004309E1 /* SceneDelegate.swift in Sources */,
 			);
@@ -272,14 +217,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41CFAD3C264C1ED7004309E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				41CFAD45264C1ED7004309E1 /* ZdoWeatherUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,22 +225,9 @@
 			target = 41CFAD1E264C1ED6004309E1 /* ZdoWeather */;
 			targetProxy = 41CFAD36264C1ED7004309E1 /* PBXContainerItemProxy */;
 		};
-		41CFAD42264C1ED7004309E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 41CFAD1E264C1ED6004309E1 /* ZdoWeather */;
-			targetProxy = 41CFAD41264C1ED7004309E1 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		41CFAD28264C1ED6004309E1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41CFAD29264C1ED6004309E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41CFAD2D264C1ED7004309E1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,14 +360,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ZdoWeather/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zdodev.ZdoWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,14 +381,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ZdoWeather/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zdodev.ZdoWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -509,44 +439,6 @@
 			};
 			name = Release;
 		};
-		41CFAD50264C1ED7004309E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ZdoWeatherUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = zdodev.ZdoWeatherUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ZdoWeather;
-			};
-			name = Debug;
-		};
-		41CFAD51264C1ED7004309E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ZdoWeatherUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = zdodev.ZdoWeatherUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ZdoWeather;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,15 +465,6 @@
 			buildConfigurations = (
 				41CFAD4D264C1ED7004309E1 /* Debug */,
 				41CFAD4E264C1ED7004309E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		41CFAD4F264C1ED7004309E1 /* Build configuration list for PBXNativeTarget "ZdoWeatherUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				41CFAD50264C1ED7004309E1 /* Debug */,
-				41CFAD51264C1ED7004309E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
