@@ -1,4 +1,4 @@
-# WeatherForecast
+# WeatherApp
 
 날씨 API와 통신하는 기능을 구현하였습니다. (UI 미구현)
 
